@@ -1,10 +1,10 @@
-# Wallet
-The SAFE Network wallet is a place that holds the credits and the credit change history for an account.
+# Кошелек
+Кошелек в SAFE Network это место, где хранятся safecoins и история изменений аккаунта.
 
-When a user joins the SAFE Network, they automatically have a wallet. As a reward for providing resources for the SAFE Network, they receive safecoins. These safecoins are stored in the user's wallet.
+Когда пользователь присоединяется к SAFE Network, у него автоматически появляется кошелек. За предоставление ресурсов сеть награждает его монетами, которые и хранятся в кошельке.
 
-These safecoins can then be used to buy more resources, applications, or traded for other digital currencies or cash through an exchange service.
+За safecoins затем можно приобретать ресурсы и приложения, а также можно их обменивать на другую цифровую валюту или наличные через сервис обмена (обменник).
 
-A user can view the contents of their wallet through the MaidSafe client.
+Пользователь может просматривать содержимое своего кошелька через клиент SAFE.
 
-When safecoins are transferred from one wallet to another, the transfer is a process of signing over ownership (with the private key) to the other user. The SAFE Network confirms the transfer via the Transaction managers and coin holders, who all require collaboration and agreement that the transaction is valid.
+При перемещениях монет с одного кошелька в другой под транзакцией подразумевается передача их в чужую собственность вместе с частным ключом. SAFE Network подтверждает такую передачу с помощью менеджеров транзакций хранилищ.

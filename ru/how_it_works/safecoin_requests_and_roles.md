@@ -1,12 +1,15 @@
-# Safecoin requests and roles
-There are different safecoin types of requests.
-* PUT - used to put safecoins (data) to a specified location
-* GET - used to get safecoins (data) from a specified location
-* EXCHANGE - used to change safecoins (data) between two specified locations
+# Safecoin-запросы и правила
+Существует три типа safecoin-запросов:
+* PUT - используется для отправки монет (или данных) на определенный узел
+* GET - используется для получения монет (или данных) с определенного узла
+* EXCHANGE - используется для обмена монетами (или данными) между двумя определенными узлами
 
-Safecoins are another type of data and it has PUT and GET requests defined for it on the SAFE Network. However, unlike normal data, there is no DELETE request available.
+Safecoins - это иной вид данных, для которого тоже определены запросы PUT и GET. Однако, в отличии от обычных данных, для монет не реализована операция DELETE.
 
-The PUT request for safecoins has a "no duplication allowed" property. This means that if there is already a safecoin with the same name (first 32 bits), the PUT request is rejected. This check is handled by the Data manager receiving the request.
+Запрос PUT имеет свойство "дублирование запрещено". Это означает, что если в сети уже имеется safecoin с таким же именем (первые 32 бита совпадают), то запрос отклоняется. Эта проверка проводится менеджером данных, которому приходит запрос PUT.
+
+Запрос EXCHANGE позволяет обновить информацию о safecoin, но только при соблюдении следующих необходимых правил:
+
 
 An EXCHANGE allows a requester to update the details of the safecoin but only if it follows the necessary rules.
 
